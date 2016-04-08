@@ -1,0 +1,3 @@
+transcriptional_initiation_rfp,[],GENE_rfp+RNAP,OPEN_GENE_rfp,0,inf;
+transcription_rfp,[],OPEN_GENE_rfp+172*M_gtp_c+180*M_ctp_c+152*M_utp_c+198*M_atp_c,mRNA_rfp+GENE_rfp+RNAP+1404*M_pi_c,0,inf;
+mRNA_degradation_rfp,[],mRNA_rfp,172*M_gmp_c+180*M_cmp_c+152*M_ump_c+198*M_amp_c,0,inf;

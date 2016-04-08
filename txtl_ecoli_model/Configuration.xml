@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model username="jeffreyvarner" model_version="1.0" model_type="NFBA-JULIA" large_scale_optimized="false" model_name="TEST_MODEL">
+  <Configuration>
+    <ListOfPackages>
+        <package required="YES" symbol="INPUT_HANDLER_PACKAGE" package_name="org.varnerlab.kwatee.nfbamodel"></package>
+        <package required="YES" symbol="OUTPUT_HANDLER_PACKAGE" package_name="org.varnerlab.kwatee.nfbamodel"></package>
+    </ListOfPackages>
+    <ListOfPaths>
+        <path required="YES" symbol="KWATEE_INPUT_PATH" path_location="/Users/jeffreyvarner/Desktop/julia_work/txtl_ecoli_model/"></path>
+        <path required="YES" symbol="KWATEE_SOURCE_OUTPUT_PATH" path_location="/Users/jeffreyvarner/Desktop/julia_work/txtl_ecoli_model/src/"></path>
+        <path required="YES" symbol="KWATEE_NETWORK_OUTPUT_PATH" path_location="/Users/jeffreyvarner/Desktop/julia_work/txtl_ecoli_model/network/"></path>
+        <path required="YES" symbol="KWATEE_DEBUG_OUTPUT_PATH" path_location="/Users/jeffreyvarner/Desktop/julia_work/txtl_ecoli_model/debug/"></path>
+
+        <path required="YES" symbol="KWATEE_SERVER_ROOT_DIRECTORY" path_location="/Users/jeffreyvarner/Desktop/KWATEEServer-v1.0/"></path>
+        <path required="YES" symbol="KWATEE_SERVER_JAR_DIRECTORY" path_location="/Users/jeffreyvarner/Desktop/KWATEEServer-v1.0/dist/"></path>
+        <path required="YES" symbol="KWATEE_PLUGINS_JAR_DIRECTORY" path_location="/Users/jeffreyvarner/Desktop/KWATEEServer-v1.0/plugins/"></path>
+    </ListOfPaths>
+  </Configuration>
+
+  <Handler>
+      <InputHandler required="YES" input_classname="VLCGNFBAParseVarnerNFBAFlatFile" package="INPUT_HANDLER_PACKAGE"></InputHandler>
+      <OutputHandler required="YES" output_classname="VLCGNFBAWriteJuliaLFBAModel" package="OUTPUT_HANDLER_PACKAGE"></OutputHandler>
+  </Handler>
+  <InputOptions>
+      <NetworkFile required="YES" path_symbol="KWATEE_INPUT_PATH" filename="Simple.net"></NetworkFile>
+      <OrderFile required="NO" path_symbol="KWATEE_INPUT_PATH" filename="Order.dat"></OrderFile>
+      <ModelParameterFile required="NO" path_symbol="KWATEE_INPUT_PATH" filename="Parameters.dat"></ModelParameterFile>
+      <InitialConditionFile required="NO" path_symbol="KWATEE_INPUT_PATH" filename="InitialConditins.dat"></InitialConditionFile>
+  </InputOptions>
+  <OutputOptions>
+      <DataFunction required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="DataFile.jl"></DataFunction>
+      <BalanceFunction required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="Balances.jl"></BalanceFunction>
+      <KineticsFunction required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="Kinetics.jl"></KineticsFunction>
+      <TypesLibrary required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="Types.jl"></TypesLibrary>
+      <DriverFunction required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="FluxDriver.jl"></DriverFunction>
+      <ControlFunction required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="Control.jl"></ControlFunction>
+      <BoundsFunction required="YES" path_symbol="KWATEE_SOURCE_OUTPUT_PATH" filename="Bounds.jl"></BoundsFunction>
+      <StoichiometricMatrix required="YES" path_symbol="KWATEE_NETWORK_OUTPUT_PATH" filename="Network.dat"></StoichiometricMatrix>
+      <DebugOutputFile required="YES" path_symbol="KWATEE_DEDUG_OUTPUT_PATH" filename="Debug.txt"></DebugOutputFile>
+  </OutputOptions>
+</Model>

@@ -1,0 +1,3 @@
+transcriptional_initiation_invA,[],GENE_invA+RNAP,OPEN_GENE_invA,0,inf;
+transcription_invA,[],OPEN_GENE_invA+191*M_gtp_c+155*M_ctp_c+195*M_utp_c+209*M_atp_c,mRNA_invA+GENE_invA+RNAP+1500*M_pi_c,0,inf;
+mRNA_degradation_invA,[],mRNA_invA,191*M_gmp_c+155*M_cmp_c+195*M_ump_c+209*M_amp_c,0,inf;

@@ -1,0 +1,3 @@
+transcriptional_initiation_sicA,[],GENE_sicA+RNAP,OPEN_GENE_sicA,0,inf;
+transcription_sicA,[],OPEN_GENE_sicA+123*M_gtp_c+89*M_ctp_c+133*M_utp_c+153*M_atp_c,mRNA_sicA+GENE_sicA+RNAP+996*M_pi_c,0,inf;
+mRNA_degradation_sicA,[],mRNA_sicA,123*M_gmp_c+89*M_cmp_c+133*M_ump_c+153*M_amp_c,0,inf;

@@ -1,0 +1,3058 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NFNAModel>
+<listOfSpecies>
+		<species symbol="M_maltose_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_h2o_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_glc_D_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_pep_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_g6p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_pyr_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_atp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_adp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_h_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_utp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_udp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ctp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_cdp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gtp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gdp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_f6p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_fdp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_pi_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_dhap_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_g3p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_nad_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_13dpg_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_nadh_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_3pg_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_2pg_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_oaa_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_co2_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_coa_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_accoa_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_amp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_nadp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_6pgl_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_nadph_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_6pgc_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ru5p_D_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_xu5p_D_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_r5p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_s7p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_e4p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_2ddg6p_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_cit_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_icit_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_akg_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_succoa_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_succ_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_q8_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_fum_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_q8h2_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_mql8_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_mqn8_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_mal_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_glx_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_actp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ac_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ppi_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_etoh_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_lac_D_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_for_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_o2_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_h_e" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_chor_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gln_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gly_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gar_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_glu_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_10fthf_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_air_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_thf_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_asp_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_hco3_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_aicar_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_imp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_methf_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_mlthf_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_5mthf_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gmp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ump_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_cmp_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ala_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_arg_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_nh4_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_asn_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ser_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_h2s_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_cys_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_his_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_thr_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ile_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_leu_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_lys_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_met_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_phe_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_pro_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_trp_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_tyr_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_val_L_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_urea_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_h2o2_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_mglx_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_prop_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_indole_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_cadav_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gaba_c" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="GENE_deGFP" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="RNAP" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="OPEN_GENE_deGFP" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="mRNA_deGFP" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="RIBOSOME" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="RIBOSOME_START_deGFP" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ala_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_arg_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_asn_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_asp_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_cys_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_glu_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gln_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_gly_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_his_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ile_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_leu_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_lys_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_met_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_phe_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_pro_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_ser_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_thr_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_trp_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_tyr_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="M_val_L_c_tRNA" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="PROTEIN_deGFP" is_species_balanced="true" initial_condition="0.0"/>
+		<species symbol="tRNA" is_species_balanced="true" initial_condition="0.0"/>
+</listOfSpecies>
+<listOfReactions>
+	<reaction index="1" name="R_malS" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_malS: M_maltose_c+M_h2o_c -([])-> 2*M_glc_D_c">
+		<listOfReactants>
+			<speciesReference species="M_maltose_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glc_D_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="2" name="R_PTS" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_PTS: M_pep_c+M_glc_D_c -([])-> M_g6p_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="3" name="R_glk_atp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glk_atp: M_atp_c+M_glc_D_c -([])-> M_adp_c+M_g6p_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="4" name="R_glk_utp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glk_utp: M_utp_c+M_glc_D_c -([])-> M_udp_c+M_g6p_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_utp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_udp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="5" name="R_glk_ctp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glk_ctp: M_ctp_c+M_glc_D_c -([])-> M_cdp_c+M_g6p_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_ctp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="6" name="R_glk_gtp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glk_gtp: M_gtp_c+M_glc_D_c -([])-> M_gdp_c+M_g6p_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="7" name="R_pgi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pgi: M_g6p_c -([])-> M_f6p_c">
+		<listOfReactants>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="8" name="R_pgi_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_pgi: M_g6p_c -([])-> M_f6p_c)">
+		<listOfReactants>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="9" name="R_pfk" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pfk: M_atp_c+M_f6p_c -([])-> M_adp_c+M_fdp_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_fdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="10" name="R_fdp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_fdp: M_fdp_c+M_h2o_c -([])-> M_f6p_c+M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_fdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="11" name="R_fbaA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_fbaA: M_fdp_c -([])-> M_dhap_c+M_g3p_c">
+		<listOfReactants>
+			<speciesReference species="M_fdp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_dhap_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="12" name="R_fbaA_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_fbaA: M_fdp_c -([])-> M_dhap_c+M_g3p_c)">
+		<listOfReactants>
+			<speciesReference species="M_dhap_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_fdp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="13" name="R_tpiA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_tpiA: M_dhap_c -([])-> M_g3p_c">
+		<listOfReactants>
+			<speciesReference species="M_dhap_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="14" name="R_tpiA_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_tpiA: M_dhap_c -([])-> M_g3p_c)">
+		<listOfReactants>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_dhap_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="15" name="R_gapA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gapA: M_g3p_c+M_nad_c+M_pi_c -([])-> M_13dpg_c+M_h_c+M_nadh_c">
+		<listOfReactants>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_13dpg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="16" name="R_gapA_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_gapA: M_g3p_c+M_nad_c+M_pi_c -([])-> M_13dpg_c+M_h_c+M_nadh_c)">
+		<listOfReactants>
+			<speciesReference species="M_13dpg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="17" name="R_pgk" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pgk: M_13dpg_c+M_adp_c -([])-> M_3pg_c+M_atp_c">
+		<listOfReactants>
+			<speciesReference species="M_13dpg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_3pg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="18" name="R_pgk_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_pgk: M_13dpg_c+M_adp_c -([])-> M_3pg_c+M_atp_c)">
+		<listOfReactants>
+			<speciesReference species="M_3pg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_13dpg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="19" name="R_gpm" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gpm: M_3pg_c -([])-> M_2pg_c">
+		<listOfReactants>
+			<speciesReference species="M_3pg_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_2pg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="20" name="R_gpm_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_gpm: M_3pg_c -([])-> M_2pg_c)">
+		<listOfReactants>
+			<speciesReference species="M_2pg_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_3pg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="21" name="R_eno" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_eno: M_2pg_c -([])-> M_h2o_c+M_pep_c">
+		<listOfReactants>
+			<speciesReference species="M_2pg_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="22" name="R_eno_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_eno: M_2pg_c -([])-> M_h2o_c+M_pep_c)">
+		<listOfReactants>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_2pg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="23" name="R_pyk" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pyk: M_adp_c+M_h_c+M_pep_c -([])-> M_atp_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="24" name="R_pck" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pck: M_atp_c+M_oaa_c -([])-> M_adp_c+M_co2_c+M_pep_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="25" name="R_ppc" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ppc: M_co2_c+M_h2o_c+M_pep_c -([])-> M_h_c+M_oaa_c+M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="26" name="R_pdh" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pdh: M_coa_c+M_nad_c+M_pyr_c -([])-> M_accoa_c+M_co2_c+M_nadh_c">
+		<listOfReactants>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="27" name="R_pps" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pps: M_atp_c+M_h2o_c+M_pyr_c -([])-> M_amp_c+2*M_h_c+M_pep_c+M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_pep_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="28" name="R_zwf" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_zwf: M_g6p_c+M_nadp_c -([])-> M_6pgl_c+M_h_c+M_nadph_c">
+		<listOfReactants>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_6pgl_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="29" name="R_zwf_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_zwf: M_g6p_c+M_nadp_c -([])-> M_6pgl_c+M_h_c+M_nadph_c)">
+		<listOfReactants>
+			<speciesReference species="M_6pgl_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="30" name="R_pgl" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pgl: M_6pgl_c+M_h2o_c -([])-> M_6pgc_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_6pgl_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_6pgc_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="31" name="R_gnd" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gnd: M_6pgc_c+M_nadp_c -([])-> M_co2_c+M_nadph_c+M_ru5p_D_c">
+		<listOfReactants>
+			<speciesReference species="M_6pgc_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ru5p_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="32" name="R_rpe" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_rpe: M_ru5p_D_c -([])-> M_xu5p_D_c">
+		<listOfReactants>
+			<speciesReference species="M_ru5p_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_xu5p_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="33" name="R_rpe_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_rpe: M_ru5p_D_c -([])-> M_xu5p_D_c)">
+		<listOfReactants>
+			<speciesReference species="M_xu5p_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ru5p_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="34" name="R_rpi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_rpi: M_r5p_c -([])-> M_ru5p_D_c">
+		<listOfReactants>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ru5p_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="35" name="R_rpi_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_rpi: M_r5p_c -([])-> M_ru5p_D_c)">
+		<listOfReactants>
+			<speciesReference species="M_ru5p_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="36" name="R_talAB" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_talAB: M_g3p_c+M_s7p_c -([])-> M_e4p_c+M_f6p_c">
+		<listOfReactants>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_s7p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_e4p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="37" name="R_talAB_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_talAB: M_g3p_c+M_s7p_c -([])-> M_e4p_c+M_f6p_c)">
+		<listOfReactants>
+			<speciesReference species="M_e4p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_s7p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="38" name="R_tkt1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_tkt1: M_r5p_c+M_xu5p_D_c -([])-> M_g3p_c+M_s7p_c">
+		<listOfReactants>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_xu5p_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_s7p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="39" name="R_tkt1_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_tkt1: M_r5p_c+M_xu5p_D_c -([])-> M_g3p_c+M_s7p_c)">
+		<listOfReactants>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_s7p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_xu5p_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="40" name="R_tkt2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_tkt2: M_e4p_c+M_xu5p_D_c -([])-> M_f6p_c+M_g3p_c">
+		<listOfReactants>
+			<speciesReference species="M_e4p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_xu5p_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="41" name="R_tkt2_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_tkt2: M_e4p_c+M_xu5p_D_c -([])-> M_f6p_c+M_g3p_c)">
+		<listOfReactants>
+			<speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_e4p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_xu5p_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="42" name="R_edd" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_edd: M_6pgc_c -([])-> M_2ddg6p_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_6pgc_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_2ddg6p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="43" name="R_eda" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_eda: M_2ddg6p_c -([])-> M_g3p_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_2ddg6p_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="44" name="R_gltA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gltA: M_accoa_c+M_h2o_c+M_oaa_c -([])-> M_cit_c+M_coa_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cit_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="45" name="R_acn" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_acn: M_cit_c -([])-> M_icit_c">
+		<listOfReactants>
+			<speciesReference species="M_cit_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_icit_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="46" name="R_acn_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_acn: M_cit_c -([])-> M_icit_c)">
+		<listOfReactants>
+			<speciesReference species="M_icit_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cit_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="47" name="R_icd" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_icd: M_icit_c+M_nadp_c -([])-> M_akg_c+M_co2_c+M_nadph_c">
+		<listOfReactants>
+			<speciesReference species="M_icit_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="48" name="R_icd_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_icd: M_icit_c+M_nadp_c -([])-> M_akg_c+M_co2_c+M_nadph_c)">
+		<listOfReactants>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_icit_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="49" name="R_sucAB" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_sucAB: M_akg_c+M_coa_c+M_nad_c -([])-> M_co2_c+M_nadh_c+M_succoa_c">
+		<listOfReactants>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succoa_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="50" name="R_sucCD" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_sucCD: M_atp_c+M_coa_c+M_succ_c -([])-> M_adp_c+M_pi_c+M_succoa_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succoa_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="51" name="R_sucCD_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_sucCD: M_atp_c+M_coa_c+M_succ_c -([])-> M_adp_c+M_pi_c+M_succoa_c)">
+		<listOfReactants>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succoa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="52" name="R_sdh" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_sdh: M_q8_c+M_succ_c -([])-> M_fum_c+M_q8h2_c">
+		<listOfReactants>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="53" name="R_frd" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_frd: M_fum_c+M_mql8_c -([])-> M_mqn8_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mql8_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mqn8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="54" name="R_fum" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_fum: M_fum_c+M_h2o_c -([])-> M_mal_L_c">
+		<listOfReactants>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="55" name="R_fum_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_fum: M_fum_c+M_h2o_c -([])-> M_mal_L_c)">
+		<listOfReactants>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="56" name="R_mdh" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_mdh: M_mal_L_c+M_nad_c -([])-> M_oaa_c+M_h_c+M_nadh_c">
+		<listOfReactants>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="57" name="R_mdh_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_mdh: M_mal_L_c+M_nad_c -([])-> M_oaa_c+M_h_c+M_nadh_c)">
+		<listOfReactants>
+			<speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="58" name="R_aceA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_aceA: M_icit_c -([])-> M_glx_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_icit_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glx_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="59" name="R_aceB" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_aceB: M_accoa_c+M_glx_c+M_h2o_c -([])-> M_coa_c+M_h_c+M_mal_L_c">
+		<listOfReactants>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glx_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="60" name="R_maeA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_maeA: M_mal_L_c+M_nad_c -([])-> M_co2_c+M_nadh_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="61" name="R_maeB" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_maeB: M_mal_L_c+M_nadp_c -([])-> M_co2_c+M_nadph_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_mal_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="62" name="R_pta" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pta: M_accoa_c+M_pi_c -([])-> M_actp_c+M_coa_c">
+		<listOfReactants>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_actp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="63" name="R_pta_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_pta: M_accoa_c+M_pi_c -([])-> M_actp_c+M_coa_c)">
+		<listOfReactants>
+			<speciesReference species="M_actp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="64" name="R_ackA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ackA: M_actp_c+M_adp_c -([])-> M_ac_c+M_atp_c">
+		<listOfReactants>
+			<speciesReference species="M_actp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="65" name="R_ackA_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_ackA: M_actp_c+M_adp_c -([])-> M_ac_c+M_atp_c)">
+		<listOfReactants>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_actp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="66" name="R_acs" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_acs: M_ac_c+M_atp_c+M_coa_c -([])-> M_accoa_c+M_amp_c+M_ppi_c">
+		<listOfReactants>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="67" name="R_adhE" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_adhE: M_accoa_c+2*M_h_c+2*M_nadh_c -([])-> M_coa_c+M_etoh_c+2*M_nad_c">
+		<listOfReactants>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nadh_c" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_etoh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="68" name="R_adhE_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_adhE: M_accoa_c+2*M_h_c+2*M_nadh_c -([])-> M_coa_c+M_etoh_c+2*M_nad_c)">
+		<listOfReactants>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_etoh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nadh_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="69" name="R_ldh_f" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ldh_f: M_pyr_c+M_nadh_c+M_h_c -([])-> M_lac_D_c+M_nad_c">
+		<listOfReactants>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_lac_D_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="70" name="R_ldh_r" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ldh_r: M_lac_D_c+M_nad_c -([])-> M_pyr_c+M_nadh_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_lac_D_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="71" name="R_pflAB" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pflAB: M_coa_c+M_pyr_c -([])-> M_accoa_c+M_for_c">
+		<listOfReactants>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_for_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="72" name="R_cyd" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cyd: 2*M_h_c+0.5*M_o2_c+M_q8h2_c -([])-> M_h2o_c+M_q8_c+2*M_h_e">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_o2_c" stoichiometry="0.5"/>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_e" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="73" name="R_app" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_app: 2*M_h_c+M_mql8_c+0.5*M_o2_c -([])-> M_h2o_c+M_mqn8_c+2*M_h_e">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_mql8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_o2_c" stoichiometry="0.5"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mqn8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_e" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="74" name="R_atp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_atp: M_adp_c+M_pi_c+4*M_h_e -([])-> M_atp_c+3*M_h_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_e" stoichiometry="4"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="3"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="75" name="R_nuo" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_nuo: 3*M_h_c+M_nadh_c+M_q8_c -([])-> M_nad_c+M_q8h2_c+2*M_h_e">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="3"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_e" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="76" name="R_pnt1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pnt1: M_nad_c+M_nadph_c -([])-> M_nadh_c+M_nadp_c">
+		<listOfReactants>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="77" name="R_pnt2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pnt2: M_nadh_c+M_nadp_c+2*M_h_e -([])-> 2*M_h_c+M_nad_c+M_nadph_c">
+		<listOfReactants>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_e" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="78" name="R_ndh1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ndh1: M_h_c+M_nadh_c+M_q8_c -([])-> M_nad_c+M_q8h2_c">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="79" name="R_ndh2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ndh2: M_h_c+M_mqn8_c+M_nadh_c -([])-> M_mql8_c+M_nad_c">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mqn8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mql8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="80" name="R_hack1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_hack1: M_atp_c+M_h2o_c -([])-> M_adp_c+M_h_c+M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="81" name="R_ppk" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ppk: M_atp_c+M_pi_c -([])-> M_adp_c+M_ppi_c">
+		<listOfReactants>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="82" name="R_ppa" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ppa: M_ppi_c+M_h2o_c -([])-> 2*M_pi_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="83" name="R_chor" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_chor: M_e4p_c+2*M_pep_c+M_nadph_c+M_atp_c -([])-> M_chor_c+M_nadp_c+M_adp_c+4*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_e4p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pep_c" stoichiometry="2"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_chor_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="4"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="84" name="R_gar" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gar: M_r5p_c+M_gln_L_c+M_gly_L_c+2*M_atp_c+M_h2o_c -([])-> M_gar_c+M_glu_L_c+M_adp_c+M_amp_c+M_pi_c+M_ppi_c+7*M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="2"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gar_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="7"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="85" name="R_air" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_air: M_gar_c+M_10fthf_c+M_gln_L_c+2*M_atp_c+M_h2o_c -([])-> M_air_c+M_thf_c+M_glu_L_c+2*M_adp_c+2*M_pi_c+3*M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_gar_c" stoichiometry="1.0"/>
+			<speciesReference species="M_10fthf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="2"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_air_c" stoichiometry="1.0"/>
+			<speciesReference species="M_thf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="3"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="86" name="R_aicar" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_aicar: M_air_c+M_asp_L_c+2*M_atp_c+M_hco3_c -([])-> M_aicar_c+M_fum_c+2*M_adp_c+2*M_h_c+2*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_air_c" stoichiometry="1.0"/>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="2"/>
+			<speciesReference species="M_hco3_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_aicar_c" stoichiometry="1.0"/>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="87" name="R_imp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_imp: M_aicar_c+M_10fthf_c -([])-> M_imp_c+M_thf_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_aicar_c" stoichiometry="1.0"/>
+			<speciesReference species="M_10fthf_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_imp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_thf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="88" name="R_mthfc" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_mthfc: M_h2o_c+M_methf_c -([])-> M_10fthf_c">
+		<listOfReactants>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_methf_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_10fthf_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="89" name="R_mthfc_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_mthfc: M_h2o_c+M_methf_c -([])-> M_10fthf_c)">
+		<listOfReactants>
+			<speciesReference species="M_10fthf_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_methf_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="90" name="R_mthfd" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_mthfd: M_mlthf_c+M_nadp_c -([])-> M_h_c+M_methf_c+M_nadph_c">
+		<listOfReactants>
+			<speciesReference species="M_mlthf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_methf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="91" name="R_mthfd_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_mthfd: M_mlthf_c+M_nadp_c -([])-> M_h_c+M_methf_c+M_nadph_c)">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_methf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mlthf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="92" name="R_mthfr2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_mthfr2: M_mlthf_c+M_h_c+M_nadh_c -([])-> M_5mthf_c+M_nad_c">
+		<listOfReactants>
+			<speciesReference species="M_mlthf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_5mthf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="93" name="R_gmp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gmp: M_imp_c+M_atp_c+M_gln_L_c+M_nad_c+2*M_h2o_c -([])-> M_gmp_c+M_amp_c+M_glu_L_c+M_nadh_c+3*M_h_c+M_ppi_c">
+		<listOfReactants>
+			<speciesReference species="M_imp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="3"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="94" name="R_gdp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gdp: M_gmp_c+M_atp_c -([])-> M_gdp_c+M_adp_c">
+		<listOfReactants>
+			<speciesReference species="M_gmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="95" name="R_gtp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gtp: M_gdp_c+M_atp_c -([])-> M_gtp_c+M_adp_c">
+		<listOfReactants>
+			<speciesReference species="M_gdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="96" name="R_amp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_amp: M_asp_L_c+M_imp_c+M_gtp_c -([])-> M_amp_c+M_gdp_c+M_pi_c+2*M_h_c+M_fum_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_imp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="97" name="R_adk" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_adk: M_amp_c+M_atp_c -([])-> 2*M_adp_c">
+		<listOfReactants>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="98" name="R_adk_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_adk: M_amp_c+M_atp_c -([])-> 2*M_adp_c)">
+		<listOfReactants>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="99" name="R_ump" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ump: M_gln_L_c+M_asp_L_c+M_r5p_c+M_q8_c+3*M_atp_c+M_hco3_c -([])-> M_ump_c+M_glu_L_c+M_q8h2_c+2*M_h_c+2*M_adp_c+M_amp_c+2*M_pi_c+M_ppi_c+M_co2_c">
+		<listOfReactants>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="3"/>
+			<speciesReference species="M_hco3_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ump_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="100" name="R_udp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_udp: M_ump_c+M_atp_c -([])-> M_udp_c+M_adp_c">
+		<listOfReactants>
+			<speciesReference species="M_ump_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_udp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="101" name="R_utp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_utp: M_udp_c+M_atp_c -([])-> M_utp_c+M_adp_c">
+		<listOfReactants>
+			<speciesReference species="M_udp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_utp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="102" name="R_ctp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ctp: M_utp_c+M_gln_L_c+M_atp_c+M_h2o_c -([])-> M_ctp_c+M_glu_L_c+M_adp_c+M_pi_c+3*M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_utp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ctp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="3"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="103" name="R_cdp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cdp: M_ctp_c+M_h2o_c -([])-> M_cdp_c+M_pi_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_ctp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="104" name="R_cmp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cmp: M_cdp_c+M_h2o_c -([])-> M_cmp_c+M_pi_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_cdp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="105" name="R_alaAC" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_alaAC: M_pyr_c+M_glu_L_c -([])-> M_ala_L_c+M_akg_c">
+		<listOfReactants>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ala_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="106" name="R_arg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg: M_glu_L_c+M_accoa_c+4*M_atp_c+M_nadph_c+3*M_h2o_c+M_gln_L_c+M_asp_L_c+M_co2_c -([])-> M_arg_L_c+M_coa_c+5*M_h_c+3*M_adp_c+3*M_pi_c+M_nadp_c+M_akg_c+M_ac_c+M_amp_c+M_ppi_c+M_fum_c">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="4"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="3"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="5"/>
+			<speciesReference species="M_adp_c" stoichiometry="3"/>
+			<speciesReference species="M_pi_c" stoichiometry="3"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="107" name="R_aspA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_aspA: M_fum_c+M_nh4_c -([])-> M_asp_L_c">
+		<listOfReactants>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="108" name="R_aspA_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_aspA: M_fum_c+M_nh4_c -([])-> M_asp_L_c)">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_fum_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="109" name="R_aspC" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_aspC: M_glu_L_c+M_oaa_c -([])-> M_asp_L_c+M_akg_c">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="110" name="R_asnB" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_asnB: M_asp_L_c+M_gln_L_c+M_h2o_c+M_atp_c -([])-> M_asn_L_c+M_glu_L_c+M_h_c+M_ppi_c+M_amp_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asn_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="111" name="R_asnA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_asnA: M_asp_L_c+M_atp_c+M_nh4_c -([])-> M_asn_L_c+M_h_c+M_ppi_c+M_amp_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asn_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="112" name="R_cysEMK" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cysEMK: M_ser_L_c+M_accoa_c+M_h2s_c -([])-> M_cys_L_c+M_coa_c+M_h_c+M_ac_c">
+		<listOfReactants>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2s_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cys_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="113" name="R_gltBD" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gltBD: M_gln_L_c+M_akg_c+M_nadph_c+M_h_c -([])-> 2*M_glu_L_c+M_nadp_c">
+		<listOfReactants>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glu_L_c" stoichiometry="2"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="114" name="R_gdhA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gdhA: M_akg_c+M_nadph_c+M_nh4_c+M_h_c -([])-> M_glu_L_c+M_h2o_c+M_nadp_c">
+		<listOfReactants>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="115" name="R_glnA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glnA: M_glu_L_c+M_atp_c+M_nh4_c -([])-> M_gln_L_c+M_h_c+M_adp_c+M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="116" name="R_glyA" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glyA: M_ser_L_c+M_thf_c -([])-> M_gly_L_c+M_h2o_c+M_mlthf_c">
+		<listOfReactants>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_thf_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mlthf_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="117" name="R_his" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_his: M_gln_L_c+M_r5p_c+3*M_atp_c+2*M_nad_c+3*M_h2o_c -([])-> M_his_L_c+M_akg_c+M_aicar_c+2*M_adp_c+2*M_nadh_c+M_pi_c+2*M_ppi_c+6*M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="3"/>
+			<speciesReference species="M_nad_c" stoichiometry="2"/>
+			<speciesReference species="M_h2o_c" stoichiometry="3"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_his_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_aicar_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+			<speciesReference species="M_nadh_c" stoichiometry="2"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="6"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="118" name="R_ile" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ile: M_thr_L_c+2*M_h_c+M_pyr_c+M_nadph_c+M_glu_L_c -([])-> M_ile_L_c+M_h2o_c+M_nh4_c+M_co2_c+M_nadp_c+M_akg_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ile_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="119" name="R_leu" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_leu: 2*M_pyr_c+M_glu_L_c+M_h_c+M_nad_c+M_nadph_c+M_accoa_c -([])-> M_leu_L_c+2*M_co2_c+M_nadp_c+M_coa_c+M_nadh_c+M_akg_c">
+		<listOfReactants>
+			<speciesReference species="M_pyr_c" stoichiometry="2"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_leu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="2"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="120" name="R_lys" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_lys: M_asp_L_c+M_atp_c+2*M_nadph_c+2*M_h_c+M_pyr_c+M_succoa_c+M_glu_L_c -([])-> M_lys_L_c+M_adp_c+M_pi_c+2*M_nadp_c+M_coa_c+M_akg_c+M_succ_c+M_co2_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_lys_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="2"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="121" name="R_met" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_met: M_asp_L_c+M_cys_L_c+M_succoa_c+M_atp_c+2*M_nadph_c+M_5mthf_c -([])-> M_met_L_c+M_coa_c+M_succ_c+M_adp_c+M_pi_c+2*M_nadp_c+M_thf_c+M_nh4_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_cys_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="2"/>
+			<speciesReference species="M_5mthf_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_met_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="2"/>
+			<speciesReference species="M_thf_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="122" name="R_phe" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_phe: M_chor_c+M_h_c+M_glu_L_c -([])-> M_phe_L_c+M_co2_c+M_h2o_c+M_akg_c">
+		<listOfReactants>
+			<speciesReference species="M_chor_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_phe_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="123" name="R_pro" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pro: M_glu_L_c+M_atp_c+2*M_h_c+2*M_nadph_c -([])-> M_pro_L_c+M_adp_c+2*M_nadp_c+M_pi_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nadph_c" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pro_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="2"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="124" name="R_serABC" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_serABC: M_3pg_c+M_nad_c+M_glu_L_c+M_h2o_c -([])-> M_ser_L_c+M_nadh_c+M_h_c+M_akg_c+M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_3pg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="125" name="R_thr" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_thr: M_asp_L_c+2*M_atp_c+2*M_nadph_c+M_h_c+M_h2o_c -([])-> M_thr_L_c+2*M_adp_c+2*M_pi_c+2*M_nadp_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="2"/>
+			<speciesReference species="M_nadph_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_nadp_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="126" name="R_trp" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_trp: M_chor_c+M_gln_L_c+M_ser_L_c+M_r5p_c+2*M_atp_c -([])-> M_trp_L_c+M_glu_L_c+M_pyr_c+M_ppi_c+2*M_h2o_c+M_co2_c+M_g3p_c+2*M_adp_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_chor_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_r5p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="2"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_trp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_g3p_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="127" name="R_tyr" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_tyr: M_chor_c+M_glu_L_c+M_nad_c -([])-> M_tyr_L_c+M_akg_c+M_nadh_c+M_co2_c">
+		<listOfReactants>
+			<speciesReference species="M_chor_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_tyr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="128" name="R_val" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_val: 2*M_pyr_c+2*M_h_c+M_nadph_c+M_glu_L_c -([])-> M_val_L_c+M_co2_c+M_nadp_c+M_h2o_c+M_akg_c">
+		<listOfReactants>
+			<speciesReference species="M_pyr_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_val_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="129" name="R_arg_deg1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg_deg1: M_arg_L_c+5.0*M_h2o_c+M_atp_c+M_o2_c+2.0*M_nad_c+M_akg_c -([])-> 4.0*M_h_c+M_co2_c+M_urea_c+M_glu_L_c+M_pi_c+M_adp_c+M_nh4_c+M_h2o2_c+2.0*M_nadh_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="5.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="2.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="4.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="2.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="130" name="R_arg_deg2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg_deg2: M_arg_L_c+5.0*M_h2o_c+M_atp_c+M_o2_c+M_nad_c+M_nadp_c+M_akg_c -([])-> 4.0*M_h_c+M_co2_c+M_urea_c+M_glu_L_c+M_pi_c+M_adp_c+M_nh4_c+M_h2o2_c+M_nadh_c+M_nadph_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="5.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="4.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="131" name="R_arg_deg3" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg_deg3: M_arg_L_c+5.0*M_h2o_c+M_atp_c+M_o2_c+2.0*M_nadp_c+M_akg_c -([])-> 4.0*M_h_c+M_co2_c+M_urea_c+M_glu_L_c+M_pi_c+M_adp_c+M_nh4_c+M_h2o2_c+2.0*M_nadph_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="5.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="2.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="4.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="2.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="132" name="R_arg_deg4" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg_deg4: M_arg_L_c+3.0*M_h2o_c+2.0*M_akg_c+2.0*M_nad_c -([])-> 3.0*M_h_c+M_co2_c+M_urea_c+2.0*M_glu_L_c+2.0*M_nadh_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="3.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="2.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="2.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="3.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="2.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="2.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="133" name="R_arg_deg5" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg_deg5: M_arg_L_c+3.0*M_h2o_c+2.0*M_akg_c+M_nad_c+M_nadp_c -([])-> 3.0*M_h_c+M_co2_c+M_urea_c+2.0*M_glu_L_c+M_nadh_c+M_nadph_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="3.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="2.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="3.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="2.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="134" name="R_arg_deg6" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_arg_deg6: M_arg_L_c+M_accoa_c+4.0*M_h2o_c+M_akg_c+M_nad_c -([])-> M_coa_c+M_h_c+M_co2_c+2.0*M_nh4_c+2.0*M_glu_L_c+M_nadh_c+M_succ_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="4.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="2.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="2.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="135" name="R_thr_deg1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_thr_deg1: M_thr_L_c+M_nad_c+M_coa_c -([])-> M_nadh_c+M_h_c+M_accoa_c+M_gly_L_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="136" name="R_gly_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gly_deg: M_gly_L_c+M_accoa_c+M_h_c+M_o2_c+M_h2o_c -([])-> M_coa_c+M_co2_c+M_h2o2_c+M_nh4_c+M_mglx_c">
+		<listOfReactants>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mglx_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="137" name="R_thr_deg2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_thr_deg2: M_thr_L_c+M_nad_c+M_o2_c+M_h2o_c -([])-> M_nadh_c+M_co2_c+M_h2o2_c+M_nh4_c+M_mglx_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_mglx_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="138" name="R_thr_deg3" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_thr_deg3: M_thr_L_c+M_coa_c+M_nad_c -([])-> M_gly_L_c+M_accoa_c+M_nadh_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_coa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_accoa_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="139" name="R_thr_deg4" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_thr_deg4: M_thr_L_c+M_pi_c+M_adp_c -([])-> M_h_c+M_h2o_c+M_for_c+M_atp_c+M_prop_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_for_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_prop_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="140" name="R_thr_deg5" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_thr_deg5: M_thr_L_c+M_h_c+M_pyr_c+M_nadph_c+M_glu_L_c -([])-> 2.0*M_h2o_c+M_co2_c+M_nadp_c+M_akg_c+M_ile_L_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ile_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="141" name="R_mglx_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_mglx_deg: M_mglx_c+M_nadp_c+M_h2o_c -([])-> M_pyr_c+M_nadph_c+M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_mglx_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="142" name="R_mglx_deg_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(R_mglx_deg: M_mglx_c+M_nadp_c+M_h2o_c -([])-> M_pyr_c+M_nadph_c+M_h_c)">
+		<listOfReactants>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mglx_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="143" name="R_ser_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ser_deg: M_ser_L_c -([])-> M_nh4_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="144" name="R_pro_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_pro_deg: M_pro_L_c+M_q8_c+2.0*M_h2o_c+M_nad_c -([])-> 2.0*M_h_c+M_q8h2_c+M_nadh_c+M_glu_L_c">
+		<listOfReactants>
+			<speciesReference species="M_pro_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="2.0"/>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="145" name="R_trp_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_trp_deg: M_trp_L_c+M_h2o_c -([])-> M_indole_c+M_nh4_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_trp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_indole_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="146" name="R_cys_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cys_deg: M_cys_L_c+M_h2o_c -([])-> M_h2s_c+M_nh4_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_cys_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2s_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="147" name="R_ala_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ala_deg: M_ala_L_c+M_h2o_c+M_q8_c -([])-> M_q8h2_c+M_nh4_c+M_pyr_c">
+		<listOfReactants>
+			<speciesReference species="M_ala_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_q8_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="148" name="R_lys_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_lys_deg: M_lys_L_c -([])-> M_co2_c+M_cadav_c">
+		<listOfReactants>
+			<speciesReference species="M_lys_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_cadav_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="149" name="R_gln_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gln_deg: M_gln_L_c+M_h2o_c -([])-> M_nh4_c+M_glu_L_c">
+		<listOfReactants>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="150" name="R_glu_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_glu_deg: M_glu_L_c+M_h_c -([])-> M_co2_c+M_gaba_c">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+			<speciesReference species="M_gaba_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="151" name="R_gaba_deg1" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gaba_deg1: M_gaba_c+M_akg_c+M_h2o_c+M_nad_c -([])-> M_succ_c+M_glu_L_c+2*M_h_c+M_nadh_c">
+		<listOfReactants>
+			<speciesReference species="M_gaba_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nad_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="152" name="R_gaba_deg2" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gaba_deg2: M_gaba_c+M_akg_c+M_h2o_c+M_nadp_c -([])-> M_succ_c+M_glu_L_c+2*M_h_c+M_nadph_c">
+		<listOfReactants>
+			<speciesReference species="M_gaba_c" stoichiometry="1.0"/>
+			<speciesReference species="M_akg_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_nadp_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_succ_c" stoichiometry="1.0"/>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="2"/>
+			<speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="153" name="R_asn_deg" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_asn_deg: M_asn_L_c+M_h2o_c+M_adp_c+M_pi_c -([])-> M_nh4_c+M_asp_L_c+M_atp_c">
+		<listOfReactants>
+			<speciesReference species="M_asn_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+			<speciesReference species="M_adp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="154" name="R_amp_ppi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_amp_ppi: M_amp_c+M_ppi_c+4*M_h_c -([])-> M_atp_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="4"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="155" name="R_amp_pi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_amp_pi: M_amp_c+2*M_pi_c+6*M_h_c -([])-> M_atp_c+2*M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="6"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="156" name="R_gmp_ppi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gmp_ppi: M_gmp_c+M_ppi_c+4*M_h_c -([])-> M_gtp_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_gmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="4"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="157" name="R_gmp_pi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_gmp_pi: M_gmp_c+2*M_pi_c+6*M_h_c -([])-> M_gtp_c+2*M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_gmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="6"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="158" name="R_cmp_ppi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cmp_ppi: M_cmp_c+M_ppi_c+4*M_h_c -([])-> M_ctp_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_cmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="4"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ctp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="159" name="R_cmp_pi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_cmp_pi: M_cmp_c+2*M_pi_c+6*M_h_c -([])-> M_ctp_c+2*M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_cmp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="6"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ctp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="160" name="R_ump_ppi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ump_ppi: M_ump_c+M_ppi_c+4*M_h_c -([])-> M_utp_c+M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_ump_c" stoichiometry="1.0"/>
+			<speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h_c" stoichiometry="4"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_utp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="161" name="R_ump_pi" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="R_ump_pi: M_ump_c+2*M_pi_c+6*M_h_c -([])-> M_utp_c+2*M_h2o_c">
+		<listOfReactants>
+			<speciesReference species="M_ump_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="2"/>
+			<speciesReference species="M_h_c" stoichiometry="6"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_utp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_h2o_c" stoichiometry="2"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="162" name="transcriptional_initiation_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="transcriptional_initiation_deGFP: GENE_deGFP+RNAP -([])-> OPEN_GENE_deGFP">
+		<listOfReactants>
+			<speciesReference species="GENE_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="RNAP" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="OPEN_GENE_deGFP" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="163" name="transcription_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="transcription_deGFP: OPEN_GENE_deGFP+183*M_gtp_c+231*M_ctp_c+101*M_utp_c+163*M_atp_c -([])-> mRNA_deGFP+GENE_deGFP+RNAP+1356*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="OPEN_GENE_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="M_gtp_c" stoichiometry="183"/>
+			<speciesReference species="M_ctp_c" stoichiometry="231"/>
+			<speciesReference species="M_utp_c" stoichiometry="101"/>
+			<speciesReference species="M_atp_c" stoichiometry="163"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="mRNA_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="GENE_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="RNAP" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="1356"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="164" name="mRNA_degradation_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="mRNA_degradation_deGFP: mRNA_deGFP -([])-> 183*M_gmp_c+231*M_cmp_c+101*M_ump_c+163*M_amp_c">
+		<listOfReactants>
+			<speciesReference species="mRNA_deGFP" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gmp_c" stoichiometry="183"/>
+			<speciesReference species="M_cmp_c" stoichiometry="231"/>
+			<speciesReference species="M_ump_c" stoichiometry="101"/>
+			<speciesReference species="M_amp_c" stoichiometry="163"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="165" name="translation_initiation_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="translation_initiation_deGFP: mRNA_deGFP+RIBOSOME -([])-> RIBOSOME_START_deGFP">
+		<listOfReactants>
+			<speciesReference species="mRNA_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="RIBOSOME" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="RIBOSOME_START_deGFP" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="166" name="translation_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="translation_deGFP: RIBOSOME_START_deGFP+450*M_gtp_c+8.0*M_ala_L_c_tRNA+6.0*M_arg_L_c_tRNA+13.0*M_asn_L_c_tRNA+17.0*M_asp_L_c_tRNA+2.0*M_cys_L_c_tRNA+14.0*M_glu_L_c_tRNA+8.0*M_gln_L_c_tRNA+20.0*M_gly_L_c_tRNA+9.0*M_his_L_c_tRNA+12.0*M_ile_L_c_tRNA+19.0*M_leu_L_c_tRNA+18.0*M_lys_L_c_tRNA+5.0*M_met_L_c_tRNA+12.0*M_phe_L_c_tRNA+10.0*M_pro_L_c_tRNA+9.0*M_ser_L_c_tRNA+15.0*M_thr_L_c_tRNA+1.0*M_trp_L_c_tRNA+10.0*M_tyr_L_c_tRNA+17.0*M_val_L_c_tRNA -([])-> RIBOSOME+mRNA_deGFP+PROTEIN_deGFP+450*M_gdp_c+450*M_pi_c+225*tRNA">
+		<listOfReactants>
+			<speciesReference species="RIBOSOME_START_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="M_gtp_c" stoichiometry="450"/>
+			<speciesReference species="M_ala_L_c_tRNA" stoichiometry="8.0"/>
+			<speciesReference species="M_arg_L_c_tRNA" stoichiometry="6.0"/>
+			<speciesReference species="M_asn_L_c_tRNA" stoichiometry="13.0"/>
+			<speciesReference species="M_asp_L_c_tRNA" stoichiometry="17.0"/>
+			<speciesReference species="M_cys_L_c_tRNA" stoichiometry="2.0"/>
+			<speciesReference species="M_glu_L_c_tRNA" stoichiometry="14.0"/>
+			<speciesReference species="M_gln_L_c_tRNA" stoichiometry="8.0"/>
+			<speciesReference species="M_gly_L_c_tRNA" stoichiometry="20.0"/>
+			<speciesReference species="M_his_L_c_tRNA" stoichiometry="9.0"/>
+			<speciesReference species="M_ile_L_c_tRNA" stoichiometry="12.0"/>
+			<speciesReference species="M_leu_L_c_tRNA" stoichiometry="19.0"/>
+			<speciesReference species="M_lys_L_c_tRNA" stoichiometry="18.0"/>
+			<speciesReference species="M_met_L_c_tRNA" stoichiometry="5.0"/>
+			<speciesReference species="M_phe_L_c_tRNA" stoichiometry="12.0"/>
+			<speciesReference species="M_pro_L_c_tRNA" stoichiometry="10.0"/>
+			<speciesReference species="M_ser_L_c_tRNA" stoichiometry="9.0"/>
+			<speciesReference species="M_thr_L_c_tRNA" stoichiometry="15.0"/>
+			<speciesReference species="M_trp_L_c_tRNA" stoichiometry="1.0"/>
+			<speciesReference species="M_tyr_L_c_tRNA" stoichiometry="10.0"/>
+			<speciesReference species="M_val_L_c_tRNA" stoichiometry="17.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="RIBOSOME" stoichiometry="1.0"/>
+			<speciesReference species="mRNA_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="PROTEIN_deGFP" stoichiometry="1.0"/>
+			<speciesReference species="M_gdp_c" stoichiometry="450"/>
+			<speciesReference species="M_pi_c" stoichiometry="450"/>
+			<speciesReference species="tRNA" stoichiometry="225"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="167" name="tRNA_charging_M_ala_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_ala_L_c_deGFP: 8.0*M_ala_L_c+8.0*M_atp_c+8.0*tRNA -([])-> 8.0*M_ala_L_c_tRNA+8.0*M_amp_c+16.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_ala_L_c" stoichiometry="8.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="8.0"/>
+			<speciesReference species="tRNA" stoichiometry="8.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ala_L_c_tRNA" stoichiometry="8.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="8.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="16.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="168" name="tRNA_charging_M_arg_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_arg_L_c_deGFP: 6.0*M_arg_L_c+6.0*M_atp_c+6.0*tRNA -([])-> 6.0*M_arg_L_c_tRNA+6.0*M_amp_c+12.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="6.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="6.0"/>
+			<speciesReference species="tRNA" stoichiometry="6.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_arg_L_c_tRNA" stoichiometry="6.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="6.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="12.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="169" name="tRNA_charging_M_asn_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_asn_L_c_deGFP: 13.0*M_asn_L_c+13.0*M_atp_c+13.0*tRNA -([])-> 13.0*M_asn_L_c_tRNA+13.0*M_amp_c+26.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_asn_L_c" stoichiometry="13.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="13.0"/>
+			<speciesReference species="tRNA" stoichiometry="13.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asn_L_c_tRNA" stoichiometry="13.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="13.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="26.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="170" name="tRNA_charging_M_asp_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_asp_L_c_deGFP: 17.0*M_asp_L_c+17.0*M_atp_c+17.0*tRNA -([])-> 17.0*M_asp_L_c_tRNA+17.0*M_amp_c+34.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="17.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="17.0"/>
+			<speciesReference species="tRNA" stoichiometry="17.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asp_L_c_tRNA" stoichiometry="17.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="17.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="34.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="171" name="tRNA_charging_M_cys_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_cys_L_c_deGFP: 2.0*M_cys_L_c+2.0*M_atp_c+2.0*tRNA -([])-> 2.0*M_cys_L_c_tRNA+2.0*M_amp_c+4.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_cys_L_c" stoichiometry="2.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="2.0"/>
+			<speciesReference species="tRNA" stoichiometry="2.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cys_L_c_tRNA" stoichiometry="2.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="2.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="4.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="172" name="tRNA_charging_M_glu_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_glu_L_c_deGFP: 14.0*M_glu_L_c+14.0*M_atp_c+14.0*tRNA -([])-> 14.0*M_glu_L_c_tRNA+14.0*M_amp_c+28.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="14.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="14.0"/>
+			<speciesReference species="tRNA" stoichiometry="14.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glu_L_c_tRNA" stoichiometry="14.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="14.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="28.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="173" name="tRNA_charging_M_gln_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_gln_L_c_deGFP: 8.0*M_gln_L_c+8.0*M_atp_c+8.0*tRNA -([])-> 8.0*M_gln_L_c_tRNA+8.0*M_amp_c+16.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_gln_L_c" stoichiometry="8.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="8.0"/>
+			<speciesReference species="tRNA" stoichiometry="8.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gln_L_c_tRNA" stoichiometry="8.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="8.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="16.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="174" name="tRNA_charging_M_gly_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_gly_L_c_deGFP: 20.0*M_gly_L_c+20.0*M_atp_c+20.0*tRNA -([])-> 20.0*M_gly_L_c_tRNA+20.0*M_amp_c+40.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_gly_L_c" stoichiometry="20.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="20.0"/>
+			<speciesReference species="tRNA" stoichiometry="20.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gly_L_c_tRNA" stoichiometry="20.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="20.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="40.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="175" name="tRNA_charging_M_his_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_his_L_c_deGFP: 9.0*M_his_L_c+9.0*M_atp_c+9.0*tRNA -([])-> 9.0*M_his_L_c_tRNA+9.0*M_amp_c+18.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_his_L_c" stoichiometry="9.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="9.0"/>
+			<speciesReference species="tRNA" stoichiometry="9.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_his_L_c_tRNA" stoichiometry="9.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="9.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="18.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="176" name="tRNA_charging_M_ile_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_ile_L_c_deGFP: 12.0*M_ile_L_c+12.0*M_atp_c+12.0*tRNA -([])-> 12.0*M_ile_L_c_tRNA+12.0*M_amp_c+24.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_ile_L_c" stoichiometry="12.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="12.0"/>
+			<speciesReference species="tRNA" stoichiometry="12.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ile_L_c_tRNA" stoichiometry="12.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="12.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="24.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="177" name="tRNA_charging_M_leu_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_leu_L_c_deGFP: 19.0*M_leu_L_c+19.0*M_atp_c+19.0*tRNA -([])-> 19.0*M_leu_L_c_tRNA+19.0*M_amp_c+38.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_leu_L_c" stoichiometry="19.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="19.0"/>
+			<speciesReference species="tRNA" stoichiometry="19.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_leu_L_c_tRNA" stoichiometry="19.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="19.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="38.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="178" name="tRNA_charging_M_lys_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_lys_L_c_deGFP: 18.0*M_lys_L_c+18.0*M_atp_c+18.0*tRNA -([])-> 18.0*M_lys_L_c_tRNA+18.0*M_amp_c+36.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_lys_L_c" stoichiometry="18.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="18.0"/>
+			<speciesReference species="tRNA" stoichiometry="18.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_lys_L_c_tRNA" stoichiometry="18.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="18.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="36.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="179" name="tRNA_charging_M_met_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_met_L_c_deGFP: 5.0*M_met_L_c+5.0*M_atp_c+5.0*tRNA -([])-> 5.0*M_met_L_c_tRNA+5.0*M_amp_c+10.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_met_L_c" stoichiometry="5.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="5.0"/>
+			<speciesReference species="tRNA" stoichiometry="5.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_met_L_c_tRNA" stoichiometry="5.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="5.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="10.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="180" name="tRNA_charging_M_phe_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_phe_L_c_deGFP: 12.0*M_phe_L_c+12.0*M_atp_c+12.0*tRNA -([])-> 12.0*M_phe_L_c_tRNA+12.0*M_amp_c+24.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_phe_L_c" stoichiometry="12.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="12.0"/>
+			<speciesReference species="tRNA" stoichiometry="12.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_phe_L_c_tRNA" stoichiometry="12.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="12.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="24.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="181" name="tRNA_charging_M_pro_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_pro_L_c_deGFP: 10.0*M_pro_L_c+10.0*M_atp_c+10.0*tRNA -([])-> 10.0*M_pro_L_c_tRNA+10.0*M_amp_c+20.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_pro_L_c" stoichiometry="10.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="10.0"/>
+			<speciesReference species="tRNA" stoichiometry="10.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pro_L_c_tRNA" stoichiometry="10.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="10.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="20.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="182" name="tRNA_charging_M_ser_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_ser_L_c_deGFP: 9.0*M_ser_L_c+9.0*M_atp_c+9.0*tRNA -([])-> 9.0*M_ser_L_c_tRNA+9.0*M_amp_c+18.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_ser_L_c" stoichiometry="9.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="9.0"/>
+			<speciesReference species="tRNA" stoichiometry="9.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ser_L_c_tRNA" stoichiometry="9.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="9.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="18.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="183" name="tRNA_charging_M_thr_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_thr_L_c_deGFP: 15.0*M_thr_L_c+15.0*M_atp_c+15.0*tRNA -([])-> 15.0*M_thr_L_c_tRNA+15.0*M_amp_c+30.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="15.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="15.0"/>
+			<speciesReference species="tRNA" stoichiometry="15.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_thr_L_c_tRNA" stoichiometry="15.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="15.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="30.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="184" name="tRNA_charging_M_trp_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_trp_L_c_deGFP: 1.0*M_trp_L_c+1.0*M_atp_c+1.0*tRNA -([])-> 1.0*M_trp_L_c_tRNA+1.0*M_amp_c+2.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_trp_L_c" stoichiometry="1.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="1.0"/>
+			<speciesReference species="tRNA" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_trp_L_c_tRNA" stoichiometry="1.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="1.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="2.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="185" name="tRNA_charging_M_tyr_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_tyr_L_c_deGFP: 10.0*M_tyr_L_c+10.0*M_atp_c+10.0*tRNA -([])-> 10.0*M_tyr_L_c_tRNA+10.0*M_amp_c+20.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_tyr_L_c" stoichiometry="10.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="10.0"/>
+			<speciesReference species="tRNA" stoichiometry="10.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_tyr_L_c_tRNA" stoichiometry="10.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="10.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="20.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="186" name="tRNA_charging_M_val_L_c_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tRNA_charging_M_val_L_c_deGFP: 17.0*M_val_L_c+17.0*M_atp_c+17.0*tRNA -([])-> 17.0*M_val_L_c_tRNA+17.0*M_amp_c+34.0*M_pi_c">
+		<listOfReactants>
+			<speciesReference species="M_val_L_c" stoichiometry="17.0"/>
+			<speciesReference species="M_atp_c" stoichiometry="17.0"/>
+			<speciesReference species="tRNA" stoichiometry="17.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_val_L_c_tRNA" stoichiometry="17.0"/>
+			<speciesReference species="M_amp_c" stoichiometry="17.0"/>
+			<speciesReference species="M_pi_c" stoichiometry="34.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="187" name="tNRA_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="tNRA_exchange: tRNA -([])-> []">
+		<listOfReactants>
+			<speciesReference species="tRNA" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="188" name="tNRA_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(tNRA_exchange: tRNA -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="tRNA" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="189" name="PROTEIN_export_deGFP" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="PROTEIN_export_deGFP: PROTEIN_deGFP -([])-> []">
+		<listOfReactants>
+			<speciesReference species="PROTEIN_deGFP" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="190" name="M_ala_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_ala_L_c_exchange: M_ala_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_ala_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="191" name="M_ala_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_ala_L_c_exchange: M_ala_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ala_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="192" name="M_arg_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_arg_L_c_exchange: M_arg_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="193" name="M_arg_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_arg_L_c_exchange: M_arg_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_arg_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="194" name="M_asn_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_asn_L_c_exchange: M_asn_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_asn_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="195" name="M_asn_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_asn_L_c_exchange: M_asn_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asn_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="196" name="M_asp_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_asp_L_c_exchange: M_asp_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="197" name="M_asp_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_asp_L_c_exchange: M_asp_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_asp_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="198" name="M_cys_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_cys_L_c_exchange: M_cys_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_cys_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="199" name="M_cys_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_cys_L_c_exchange: M_cys_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cys_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="200" name="M_glu_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_glu_L_c_exchange: M_glu_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="201" name="M_glu_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_glu_L_c_exchange: M_glu_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glu_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="202" name="M_gln_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_gln_L_c_exchange: M_gln_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="203" name="M_gln_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_gln_L_c_exchange: M_gln_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gln_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="204" name="M_gly_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_gly_L_c_exchange: M_gly_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="205" name="M_gly_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_gly_L_c_exchange: M_gly_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_gly_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="206" name="M_his_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_his_L_c_exchange: M_his_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_his_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="207" name="M_his_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_his_L_c_exchange: M_his_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_his_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="208" name="M_ile_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_ile_L_c_exchange: M_ile_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_ile_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="209" name="M_ile_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_ile_L_c_exchange: M_ile_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ile_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="210" name="M_leu_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_leu_L_c_exchange: M_leu_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_leu_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="211" name="M_leu_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_leu_L_c_exchange: M_leu_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_leu_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="212" name="M_lys_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_lys_L_c_exchange: M_lys_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_lys_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="213" name="M_lys_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_lys_L_c_exchange: M_lys_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_lys_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="214" name="M_met_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_met_L_c_exchange: M_met_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_met_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="215" name="M_met_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_met_L_c_exchange: M_met_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_met_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="216" name="M_phe_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_phe_L_c_exchange: M_phe_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_phe_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="217" name="M_phe_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_phe_L_c_exchange: M_phe_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_phe_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="218" name="M_pro_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_pro_L_c_exchange: M_pro_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_pro_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="219" name="M_pro_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_pro_L_c_exchange: M_pro_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pro_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="220" name="M_ser_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_ser_L_c_exchange: M_ser_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="221" name="M_ser_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_ser_L_c_exchange: M_ser_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ser_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="222" name="M_thr_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_thr_L_c_exchange: M_thr_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="223" name="M_thr_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_thr_L_c_exchange: M_thr_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_thr_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="224" name="M_trp_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_trp_L_c_exchange: M_trp_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_trp_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="225" name="M_trp_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_trp_L_c_exchange: M_trp_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_trp_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="226" name="M_tyr_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_tyr_L_c_exchange: M_tyr_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_tyr_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="227" name="M_tyr_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_tyr_L_c_exchange: M_tyr_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_tyr_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="228" name="M_val_L_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_val_L_c_exchange: M_val_L_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_val_L_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="229" name="M_val_L_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_val_L_c_exchange: M_val_L_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_val_L_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="230" name="M_o2_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_o2_c_exchange: M_o2_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="231" name="M_o2_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_o2_c_exchange: M_o2_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_o2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="232" name="M_co2_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_co2_c_exchange: M_co2_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="233" name="M_co2_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_co2_c_exchange: M_co2_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_co2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="234" name="M_h2s_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_h2s_c_exchange: M_h2s_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_h2s_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="235" name="M_h2s_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_h2s_c_exchange: M_h2s_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2s_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="236" name="M_h_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_h_c_exchange: M_h_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="237" name="M_h_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_h_c_exchange: M_h_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="238" name="M_h2o_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_h2o_c_exchange: M_h2o_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="239" name="M_h2o_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_h2o_c_exchange: M_h2o_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="240" name="M_h_e_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_h_e_exchange: M_h_e -([])-> M_h_c">
+		<listOfReactants>
+			<speciesReference species="M_h_e" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="241" name="M_h_e_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_h_e_exchange: M_h_e -([])-> M_h_c)">
+		<listOfReactants>
+			<speciesReference species="M_h_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h_e" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="242" name="M_nh4_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_nh4_c_exchange: M_nh4_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="243" name="M_nh4_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_nh4_c_exchange: M_nh4_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_nh4_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="244" name="M_hco3_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_hco3_c_exchange: M_hco3_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_hco3_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="245" name="M_hco3_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_hco3_c_exchange: M_hco3_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_hco3_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="246" name="M_pi_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_pi_c_exchange: M_pi_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="247" name="M_pi_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_pi_c_exchange: M_pi_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_pi_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="248" name="M_maltose_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_maltose_c_exchange: M_maltose_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_maltose_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="249" name="M_maltose_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_maltose_c_exchange: M_maltose_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_maltose_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="250" name="M_glc_D_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_glc_D_c_exchange: M_glc_D_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="251" name="M_glc_D_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_glc_D_c_exchange: M_glc_D_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_glc_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="252" name="M_for_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_for_c_exchange: M_for_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_for_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="253" name="M_for_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_for_c_exchange: M_for_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_for_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="254" name="M_lac_D_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_lac_D_c_exchange: M_lac_D_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_lac_D_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="255" name="M_lac_D_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_lac_D_c_exchange: M_lac_D_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_lac_D_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="256" name="M_ac_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_ac_c_exchange: M_ac_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="257" name="M_ac_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_ac_c_exchange: M_ac_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_ac_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="258" name="M_etoh_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_etoh_c_exchange: M_etoh_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_etoh_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="259" name="M_etoh_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_etoh_c_exchange: M_etoh_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_etoh_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="260" name="M_mglx_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_mglx_c_exchange: M_mglx_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_mglx_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="261" name="M_mglx_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_mglx_c_exchange: M_mglx_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_mglx_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="262" name="M_prop_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_prop_c_exchange: M_prop_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_prop_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="263" name="M_prop_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_prop_c_exchange: M_prop_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_prop_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="264" name="M_indole_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_indole_c_exchange: M_indole_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_indole_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="265" name="M_indole_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_indole_c_exchange: M_indole_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_indole_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="266" name="M_h2o2_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_h2o2_c_exchange: M_h2o2_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="267" name="M_h2o2_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_h2o2_c_exchange: M_h2o2_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="268" name="M_cadav_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_cadav_c_exchange: M_cadav_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_cadav_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="269" name="M_cadav_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_cadav_c_exchange: M_cadav_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_cadav_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="270" name="M_urea_c_exchange" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="M_urea_c_exchange: M_urea_c -([])-> []">
+		<listOfReactants>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+	<reaction index="271" name="M_urea_c_exchange_reverse" enzyme_symbol="[]" type="BIOCHEMISTRY" formatted_record="-1*(M_urea_c_exchange: M_urea_c -([])-> [])">
+		<listOfReactants>
+			<speciesReference species="[]" stoichiometry="1.0"/>
+		</listOfReactants>
+		<listOfProducts>
+			<speciesReference species="M_urea_c" stoichiometry="1.0"/>
+		</listOfProducts>
+	</reaction>
+</listOfReactions>
+<listOfBiochemicalControlTerms>
+</listOfBiochemicalControlTerms>
+<listOfGeneExpressionControlTerms>
+</listOfGeneExpressionControlTerms>
+</NFNAModel>
