@@ -317,11 +317,12 @@ R_arg_deg6,[],M_arg_L_c+M_accoa_c+4.0*M_h2o_c+M_akg_c+M_nad_c,M_coa_c+M_h_c+M_co
 
 // superpathway of L-threonine metabolism
 R_thr_deg1,[],M_thr_L_c+M_nad_c+M_coa_c,M_nadh_c+M_h_c+M_accoa_c+M_gly_L_c,0,inf;
-R_gly_deg,[],M_gly_L_c+M_accoa_c+M_h_c+M_o2_c+M_h2o_c,M_coa_c+M_co2_c+M_h2o2_c+M_nh4_c+M_mglx_c,0,inf;
 R_thr_deg2,[],M_thr_L_c+M_nad_c+M_o2_c+M_h2o_c,M_nadh_c+M_co2_c+M_h2o2_c+M_nh4_c+M_mglx_c,0,inf;
 R_thr_deg3,[],M_thr_L_c+M_coa_c+M_nad_c,M_gly_L_c+M_accoa_c+M_nadh_c+M_h_c,0,inf;
 R_thr_deg4,[],M_thr_L_c+M_pi_c+M_adp_c,M_h_c+M_h2o_c+M_for_c+M_atp_c+M_prop_c,0,inf;
 R_thr_deg5,[],M_thr_L_c+M_h_c+M_pyr_c+M_nadph_c+M_glu_L_c,2.0*M_h2o_c+M_co2_c+M_nadp_c+M_akg_c+M_ile_L_c,0,inf;
+
+R_gly_deg,[],M_gly_L_c+M_accoa_c+M_h_c+M_o2_c+M_h2o_c,M_coa_c+M_co2_c+M_h2o2_c+M_nh4_c+M_mglx_c,0,inf;
 R_mglx_deg,[],M_mglx_c+M_nadp_c+M_h2o_c,M_pyr_c+M_nadph_c+M_h_c,-inf,inf;
 
 // L-serine degradation I

@@ -599,7 +599,7 @@ if (flux_name == "M_ac_c_exchange_reverse")
 end
 
 if (flux_name == "M_for_c_exchange")
-	upper_bound = 10
+	upper_bound = 1.0
 	@show (flux_name,lower_bound,upper_bound)
 end
 
@@ -633,11 +633,14 @@ if (flux_name == "M_o2_c_exchange_reverse")
 end
 
 
+if (flux_name == "R_nuo")
+	upper_bound = 0.1
+end
+
 if (flux_name == "M_h_e_exchange" || flux_name == "M_h_e_exchange_reverse")
 	constraint_type = GLPK.FR
 end
 
-# Setup the promoter bounds -
 
 # Compute maximum elongation rate -
 RNAP_copies_per_cell = data_dictionary["RNAP_copies_per_cell"]
@@ -708,6 +711,12 @@ if (flux_name == "transcriptional_initiation_deGFP" || flux_name =="mRNA_degrada
 	end
 end
 
+
+# Blocks -
+blocked_reaction_set = data_dictionary["blocked_reaction_set"]
+if (in(flux_name,blocked_reaction_set) == true)
+	upper_bound = 0.0
+end
 
 # Check on computed bounds -
 if (lower_bound == upper_bound)

@@ -3,6 +3,9 @@ include("DataFile.jl")
 include("Solve.jl")
 include("Types.jl")
 
+# PyPlot -
+using PyPlot
+
 # Setup the objective -
 data_dictionary = DataFile(0,0,0);
 number_of_fluxes = data_dictionary["NUMBER_OF_FLUXES"];
