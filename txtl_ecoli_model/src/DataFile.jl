@@ -119,11 +119,14 @@ data_dictionary["deGFP_mRNA_length"] = 683;
 data_dictionary["deGFP_protein_length"] = 229;
 data_dictionary["deGFP_gene_copies"] = 3.125e10;
 data_dictionary["mRNA_degradation_constant"] = 2.44;
-data_dictionary["polysome_gain"] = 10;
+data_dictionary["polysome_gain"] = 12;
 data_dictionary["volume"] = 10e-6;
 
 # Inducer levels -
 data_dictionary["p70_level"] = 35;
+
+# DNA saturation coeffcient -
+data_dictionary["plasmid_saturation_coefficient"] = 4.0
 
 # Reactions that we block ...
 data_dictionary["blocked_reaction_set"] = blocked_reaction_set

@@ -24,6 +24,7 @@ data_dictionary["R_malS_lower_bound"] = 0;
 data_dictionary["M_asn_L_c_exchange_reverse_upper_bound"] = 10;
 data_dictionary["M_o2_c_exchange_reverse"] = 10
 data_dictionary["translation_deGFP_switch_bound"] = false
+data_dictionary["sample_bounds_array"] = 10.0*ones(21)
 
 # Setup steady-state array -
 plasmind_concentration_array = collect(linspace(0,10,100));

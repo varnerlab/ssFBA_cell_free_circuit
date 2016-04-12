@@ -478,144 +478,179 @@ constraint_type = flux_model.flux_constraint_type
 
 upper_bound = 10;
 
+
 if (flux_name == "M_ala_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[1]
+	##@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_arg_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[2]
+	##@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_asn_L_c_exchange_reverse")
-	upper_bound = data_dictionary["M_asn_L_c_exchange_reverse_upper_bound"]
-	@show (flux_name,lower_bound,upper_bound)
+
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[3]
+
+	##@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_asp_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[4]
+
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_cys_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[5]
+
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_glu_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[6]
+	#@show (flux_name,lower_bound,upper_bound)
+end
+
+if (flux_name == "M_glu_L_c_exchange")
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[21]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_gln_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[7]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_gly_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[8]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_ile_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[9]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_leu_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[10]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_his_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[11]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_lys_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[12]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_met_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[13]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_phe_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[14]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_pro_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[15]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_ser_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[16]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_thr_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[17]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_trp_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[18]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_tyr_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[19]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_val_L_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	sba = data_dictionary["sample_bounds_array"];
+	upper_bound = sba[20]
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_etoh_c_exchange")
 	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_etoh_c_exchange_reverse")
 	upper_bound = 0
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_ac_c_exchange")
 	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_ac_c_exchange_reverse")
-	upper_bound = 10
-	@show (flux_name,lower_bound,upper_bound)
+	upper_bound = 0.0
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_for_c_exchange")
 	upper_bound = 1.0
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_lac_D_c_exchange_reverse")
 	upper_bound = 0
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_glc_D_c_exchange_reverse")
 	upper_bound = 0
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_mglx_c_exchange_reverse")
 	upper_bound = 0
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "R_malS")
@@ -623,21 +658,21 @@ if (flux_name == "R_malS")
 	lower_bound = data_dictionary["R_malS_lower_bound"]
 	upper_bound = data_dictionary["R_malS_upper_bound"]
 
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 if (flux_name == "M_o2_c_exchange_reverse")
 
 	upper_bound = data_dictionary["M_o2_c_exchange_reverse"]
-	@show (flux_name,lower_bound,upper_bound)
+	#@show (flux_name,lower_bound,upper_bound)
 end
 
 
-if (flux_name == "R_nuo")
+if (flux_name == "R_nuo" || flux_name == "R_ndh2")
 	upper_bound = 0.1
 end
 
-if (flux_name == "M_h_e_exchange" || flux_name == "M_h_e_exchange_reverse")
+if (flux_name == "M_h_e_exchange" || flux_name == "M_h_e_exchange_reverse" || flux_name == "M_h2o_c_exchange" || flux_name == "M_h2o_c_exchange_reverse")
 	constraint_type = GLPK.FR
 end
 
@@ -672,10 +707,11 @@ if (flux_name == "transcriptional_initiation_deGFP" || flux_name =="mRNA_degrada
 	K2 = p70a_model[5];
 	f = (p70_level^n)/(KD^n+p70_level^n)
 	P = ((K1+K2*f)/(1+K1+K2*f));
+	plasmid_saturation_coefficient = data_dictionary["plasmid_saturation_coefficient"]
 
 	# lower bound -
 	deGFP_gene_concentration = deGFP_gene_copies*(1e9/6.02e23)*(1/volume)
-	saturation_term = (deGFP_gene_concentration)/(4.0+deGFP_gene_concentration);
+	saturation_term = (deGFP_gene_concentration)/(plasmid_saturation_coefficient+deGFP_gene_concentration);
 	RNAP_concentration = RNAP_copies_per_cell*number_of_cells*(1e3/6.02e23)*(1/volume);
 	transcrition_rate_deGFP = (RNAP_elongation_rate*(1/mRNA_length_deGFP)*(RNAP_concentration)*(saturation_term)*3600)*P;
 
@@ -697,13 +733,13 @@ if (flux_name == "transcriptional_initiation_deGFP" || flux_name =="mRNA_degrada
 			translation_rate_deGFP = translation_rate_constant*ribosome_concentration*mRNA_steady_state;
 
 			# Estimate the upper_bound -
-			lower_bound = min(transcrition_rate_deGFP,translation_rate_deGFP);
-			upper_bound = max(transcrition_rate_deGFP,translation_rate_deGFP);
+			lower_bound = 0;
+			upper_bound = translation_rate_deGFP;
 
 			#lower_bound = min(transcrition_rate_deGFP,translation_rate_deGFP);
 			#upper_bound = max(transcrition_rate_deGFP,translation_rate_deGFP);
 
-			@show ribosome_concentration,RNAP_concentration,deGFP_gene_concentration,transcrition_rate_deGFP,translation_rate_deGFP
+			#@show ribosome_concentration,RNAP_concentration,deGFP_gene_concentration,transcrition_rate_deGFP,translation_rate_deGFP
 		else
 			lower_bound = 0.0
 			upper_bound = 0.0
