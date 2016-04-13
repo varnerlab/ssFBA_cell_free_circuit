@@ -6,7 +6,7 @@
 # The -B flag prevents the interpreter from compiling bytecode (.pyc files)
 
 python -m SALib.sample.saltelli \
-     -n 2000 \
+     -n 100 \
 	   -p ./Bounds.txt \
 	   -o ./Samples.txt \
 	   --delimiter=' ' \

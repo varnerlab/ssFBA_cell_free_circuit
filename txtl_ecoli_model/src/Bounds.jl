@@ -478,137 +478,8 @@ constraint_type = flux_model.flux_constraint_type
 
 upper_bound = 10;
 
-
-if (flux_name == "M_ala_L_c_exchange_reverse")
-
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[1]
-	##@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_arg_L_c_exchange_reverse")
-
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[2]
-	##@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_asn_L_c_exchange_reverse")
-
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[3]
-
-	##@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_asp_L_c_exchange_reverse")
-
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[4]
-
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_cys_L_c_exchange_reverse")
-
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[5]
-
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_glu_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[6]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
 if (flux_name == "M_glu_L_c_exchange")
 	upper_bound = 10.0
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_gln_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[7]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_gly_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[8]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_ile_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[9]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_leu_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[10]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_his_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[11]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_lys_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[12]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_met_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[13]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_phe_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[14]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_pro_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[15]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_ser_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[16]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_thr_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[17]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_trp_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[18]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_tyr_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[19]
-	#@show (flux_name,lower_bound,upper_bound)
-end
-
-if (flux_name == "M_val_L_c_exchange_reverse")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[20]
 	#@show (flux_name,lower_bound,upper_bound)
 end
 
@@ -633,7 +504,7 @@ if (flux_name == "M_ac_c_exchange_reverse")
 end
 
 if (flux_name == "M_for_c_exchange")
-	upper_bound = 1.0
+	upper_bound = 0.01
 	#@show (flux_name,lower_bound,upper_bound)
 end
 
@@ -653,9 +524,7 @@ if (flux_name == "M_mglx_c_exchange_reverse")
 end
 
 if (flux_name == "R_malS")
-
-	lower_bound = data_dictionary["R_malS_lower_bound"]
-	upper_bound = data_dictionary["R_malS_upper_bound"]
+	upper_bound = 10.0
 
 	#@show (flux_name,lower_bound,upper_bound)
 end
@@ -751,6 +620,12 @@ end
 blocked_reaction_set = data_dictionary["blocked_reaction_set"]
 if (in(flux_name,blocked_reaction_set) == true)
 	upper_bound = 0.0
+end
+
+# Update bounds for AA uptake -
+aa_uptake_bounds_dictionary = data_dictionary["aa_uptake_bounds_dictionary"];
+if (haskey(aa_uptake_bounds_dictionary,flux_name) == true)
+	upper_bound = aa_uptake_bounds_dictionary[flux_name]
 end
 
 # Check on computed bounds -

@@ -19,16 +19,36 @@ flux_model_dictionary = data_dictionary["FLUX_MODEL_DICTIONARY"]
 flux_model_dictionary["PROTEIN_export_deGFP"].flux_obj_coeff = 1.0;
 
 # set the bound -
-data_dictionary["R_malS_upper_bound"] = 10;
-data_dictionary["R_malS_lower_bound"] = 0;
-data_dictionary["M_asn_L_c_exchange_reverse_upper_bound"] = 10;
-data_dictionary["M_o2_c_exchange_reverse"] = 10
+data_dictionary["M_o2_c_exchange_reverse"] = 100
 data_dictionary["translation_deGFP_switch_bound"] = false
-data_dictionary["sample_bounds_array"] = 10.0*ones(20)
+
+# Setup bounds dictionary -
+bounds_dictionary = Dict()
+bounds_dictionary["M_ala_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_arg_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_asn_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_asp_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_cys_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_glu_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_gln_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_gly_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_ile_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_leu_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_his_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_lys_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_met_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_phe_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_pro_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_ser_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_thr_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_trp_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_tyr_L_c_exchange_reverse"] = 0.0
+bounds_dictionary["M_val_L_c_exchange_reverse"] = 0.0
+data_dictionary["aa_uptake_bounds_dictionary"] = bounds_dictionary;
 
 # Setup steady-state array -
-plasmind_concentration_array = collect(linspace(0,10,100));
-production_time = 9;
+plasmind_concentration_array = collect(linspace(0,12,100));
+production_time = 8;
 deGFP_array = zeros(length(plasmind_concentration_array))
 flux_array = zeros(number_of_samples,number_of_fluxes);
 
