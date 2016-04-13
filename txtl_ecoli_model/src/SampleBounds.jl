@@ -16,12 +16,9 @@ flux_model_dictionary = data_dictionary["FLUX_MODEL_DICTIONARY"]
 flux_model_dictionary["PROTEIN_export_deGFP"].flux_obj_coeff = 1.0;
 
 # set the bound -
-data_dictionary["R_malS_upper_bound"] = 10;
-data_dictionary["R_malS_lower_bound"] = 0;
-data_dictionary["M_asn_L_c_exchange_reverse_upper_bound"] = 10;
-data_dictionary["M_o2_c_exchange_reverse"] = 10
+data_dictionary["M_o2_c_exchange_reverse"] = 100
 data_dictionary["translation_deGFP_switch_bound"] = false
-production_time = 9;
+production_time = 8;
 
 # Set the plasmid concentration -
 gene_copy_number = (10e-6/1e9)*(6.02e23)*10.0;
@@ -75,4 +72,4 @@ for index in collect(1:nr)
 end
 
 # Write the concentration file -
-writedlm("./performance.txt",performance_array)
+writedlm("./performance.txt.5000",performance_array)

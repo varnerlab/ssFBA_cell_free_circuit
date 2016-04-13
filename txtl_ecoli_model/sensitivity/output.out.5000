@@ -1,0 +1,213 @@
+Parameter S1 S1_conf ST ST_conf
+M_ala_L_c_exchange_reverse -0.000000 0.000000 0.000000 0.000000
+M_arg_L_c_exchange_reverse 0.016601 0.192358 0.009475 0.000708
+M_asn_L_c_exchange_reverse 0.010363 0.184556 0.009015 0.000481
+M_asp_L_c_exchange_reverse 0.000000 0.000000 0.000000 0.000000
+M_cys_L_c_exchange_reverse 0.038741 0.176659 0.007984 0.000937
+M_glu_L_c_exchange_reverse 0.014702 0.080571 0.001572 0.000636
+M_gln_L_c_exchange_reverse 0.017902 0.122416 0.003693 0.001240
+M_gly_L_c_exchange_reverse 0.015210 0.416435 0.045173 0.003993
+M_ile_L_c_exchange_reverse 0.015612 0.298281 0.020226 0.001555
+M_leu_L_c_exchange_reverse 0.299815 1.011580 0.292572 0.012770
+M_his_L_c_exchange_reverse 0.023835 0.258247 0.016836 0.001260
+M_lys_L_c_exchange_reverse 0.170962 0.838368 0.188085 0.008759
+M_met_L_c_exchange_reverse -0.014540 0.037235 0.000378 0.000111
+M_phe_L_c_exchange_reverse 0.178250 0.846007 0.176694 0.008826
+M_pro_L_c_exchange_reverse 0.014191 0.136017 0.004780 0.000338
+M_ser_L_c_exchange_reverse -0.010018 0.383596 0.039021 0.002636
+M_thr_L_c_exchange_reverse 0.064648 0.518484 0.072924 0.003581
+M_trp_L_c_exchange_reverse 0.001689 0.024986 0.000161 0.000029
+M_tyr_L_c_exchange_reverse 0.103566 0.708473 0.128154 0.007257
+M_val_L_c_exchange_reverse 0.016373 0.263624 0.018214 0.000888
+
+Parameter_1 Parameter_2 S2 S2_conf
+M_ala_L_c_exchange_reverse M_arg_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_asn_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_asp_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_cys_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_glu_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_gln_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_met_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.000000 0.000000
+M_ala_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.000000 0.000000
+M_ala_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.000000 0.000000
+M_arg_L_c_exchange_reverse M_asn_L_c_exchange_reverse -0.018954 0.383288
+M_arg_L_c_exchange_reverse M_asp_L_c_exchange_reverse -0.019008 0.383269
+M_arg_L_c_exchange_reverse M_cys_L_c_exchange_reverse -0.019254 0.383258
+M_arg_L_c_exchange_reverse M_glu_L_c_exchange_reverse -0.019288 0.383277
+M_arg_L_c_exchange_reverse M_gln_L_c_exchange_reverse -0.019064 0.383284
+M_arg_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.019839 0.383224
+M_arg_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.019056 0.383270
+M_arg_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.018115 0.383401
+M_arg_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.018954 0.383270
+M_arg_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.019063 0.383378
+M_arg_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.019018 0.383271
+M_arg_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.019408 0.383226
+M_arg_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.019000 0.383263
+M_arg_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.019197 0.383338
+M_arg_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.019240 0.383295
+M_arg_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.018997 0.383272
+M_arg_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.019231 0.383344
+M_arg_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.018939 0.383242
+M_asn_L_c_exchange_reverse M_asp_L_c_exchange_reverse -0.002532 0.368640
+M_asn_L_c_exchange_reverse M_cys_L_c_exchange_reverse -0.002597 0.368645
+M_asn_L_c_exchange_reverse M_glu_L_c_exchange_reverse -0.002483 0.368653
+M_asn_L_c_exchange_reverse M_gln_L_c_exchange_reverse -0.002596 0.368661
+M_asn_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.002781 0.368580
+M_asn_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.002510 0.368707
+M_asn_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.002768 0.368420
+M_asn_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.002425 0.368630
+M_asn_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.002650 0.368788
+M_asn_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.002484 0.368643
+M_asn_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.002451 0.368725
+M_asn_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.002445 0.368638
+M_asn_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.002188 0.368627
+M_asn_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.002500 0.368616
+M_asn_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.002525 0.368639
+M_asn_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.002508 0.368586
+M_asn_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.002546 0.368651
+M_asp_L_c_exchange_reverse M_cys_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_glu_L_c_exchange_reverse 0.000000 0.000000
+M_asp_L_c_exchange_reverse M_gln_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_met_L_c_exchange_reverse 0.000000 0.000000
+M_asp_L_c_exchange_reverse M_phe_L_c_exchange_reverse 0.000000 0.000000
+M_asp_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.000000 0.000000
+M_asp_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.000000 0.000000
+M_asp_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.000000 0.000000
+M_asp_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.000000 0.000000
+M_cys_L_c_exchange_reverse M_glu_L_c_exchange_reverse -0.021540 0.328892
+M_cys_L_c_exchange_reverse M_gln_L_c_exchange_reverse -0.021438 0.328880
+M_cys_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.012323 0.327405
+M_cys_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.021943 0.328924
+M_cys_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.022495 0.329052
+M_cys_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.021506 0.329010
+M_cys_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.021705 0.328938
+M_cys_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.021621 0.328889
+M_cys_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.021165 0.328921
+M_cys_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.021435 0.328858
+M_cys_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.020693 0.328835
+M_cys_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.021405 0.328936
+M_cys_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.021704 0.328875
+M_cys_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.023331 0.328876
+M_cys_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.021760 0.328849
+M_glu_L_c_exchange_reverse M_gln_L_c_exchange_reverse -0.044065 0.113279
+M_glu_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.045889 0.114054
+M_glu_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.045915 0.114010
+M_glu_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.045739 0.113935
+M_glu_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.045922 0.114054
+M_glu_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.046168 0.113947
+M_glu_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.045830 0.114039
+M_glu_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.046080 0.113945
+M_glu_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.045852 0.114007
+M_glu_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.045380 0.114029
+M_glu_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.045853 0.114047
+M_glu_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.045856 0.114030
+M_glu_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.045757 0.113965
+M_glu_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.045906 0.114067
+M_gln_L_c_exchange_reverse M_gly_L_c_exchange_reverse -0.045413 0.203890
+M_gln_L_c_exchange_reverse M_ile_L_c_exchange_reverse -0.044673 0.203684
+M_gln_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.044965 0.203727
+M_gln_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.044887 0.203684
+M_gln_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.044942 0.203652
+M_gln_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.044751 0.203728
+M_gln_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.045085 0.203431
+M_gln_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.044892 0.203719
+M_gln_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.045142 0.203948
+M_gln_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.045237 0.203799
+M_gln_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.044762 0.203717
+M_gln_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.044715 0.203715
+M_gln_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.044744 0.203747
+M_gly_L_c_exchange_reverse M_ile_L_c_exchange_reverse 0.049595 0.757509
+M_gly_L_c_exchange_reverse M_leu_L_c_exchange_reverse 0.051911 0.758115
+M_gly_L_c_exchange_reverse M_his_L_c_exchange_reverse 0.051506 0.757730
+M_gly_L_c_exchange_reverse M_lys_L_c_exchange_reverse 0.050156 0.757668
+M_gly_L_c_exchange_reverse M_met_L_c_exchange_reverse 0.050568 0.757606
+M_gly_L_c_exchange_reverse M_phe_L_c_exchange_reverse 0.051256 0.757820
+M_gly_L_c_exchange_reverse M_pro_L_c_exchange_reverse 0.050481 0.757587
+M_gly_L_c_exchange_reverse M_ser_L_c_exchange_reverse 0.062477 0.756704
+M_gly_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.051544 0.757569
+M_gly_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.050457 0.757597
+M_gly_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.048113 0.757448
+M_gly_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.050491 0.757675
+M_ile_L_c_exchange_reverse M_leu_L_c_exchange_reverse -0.009044 0.544355
+M_ile_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.009895 0.544383
+M_ile_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.009603 0.544397
+M_ile_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.009613 0.544344
+M_ile_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.010171 0.544409
+M_ile_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.009642 0.544332
+M_ile_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.010022 0.544362
+M_ile_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.003710 0.543716
+M_ile_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.009673 0.544343
+M_ile_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.010003 0.544543
+M_ile_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.009423 0.544345
+M_leu_L_c_exchange_reverse M_his_L_c_exchange_reverse -0.025690 2.021132
+M_leu_L_c_exchange_reverse M_lys_L_c_exchange_reverse -0.022815 2.020844
+M_leu_L_c_exchange_reverse M_met_L_c_exchange_reverse -0.025106 2.021056
+M_leu_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.024765 2.021936
+M_leu_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.025271 2.021144
+M_leu_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.025544 2.021137
+M_leu_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.024500 2.020857
+M_leu_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.024967 2.021059
+M_leu_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.027217 2.021089
+M_leu_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.025541 2.021094
+M_his_L_c_exchange_reverse M_lys_L_c_exchange_reverse 0.000478 0.501796
+M_his_L_c_exchange_reverse M_met_L_c_exchange_reverse 0.000491 0.501539
+M_his_L_c_exchange_reverse M_phe_L_c_exchange_reverse 0.001475 0.501773
+M_his_L_c_exchange_reverse M_pro_L_c_exchange_reverse 0.000636 0.501546
+M_his_L_c_exchange_reverse M_ser_L_c_exchange_reverse 0.001473 0.501371
+M_his_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.000753 0.501583
+M_his_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.000647 0.501533
+M_his_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.000269 0.501571
+M_his_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.000448 0.501566
+M_lys_L_c_exchange_reverse M_met_L_c_exchange_reverse 0.011770 1.677590
+M_lys_L_c_exchange_reverse M_phe_L_c_exchange_reverse 0.011535 1.677940
+M_lys_L_c_exchange_reverse M_pro_L_c_exchange_reverse 0.011974 1.677708
+M_lys_L_c_exchange_reverse M_ser_L_c_exchange_reverse 0.011968 1.677524
+M_lys_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.011572 1.677420
+M_lys_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.011454 1.677623
+M_lys_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.007409 1.677979
+M_lys_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.011857 1.677503
+M_met_L_c_exchange_reverse M_phe_L_c_exchange_reverse -0.003865 0.058486
+M_met_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.003692 0.058570
+M_met_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.003362 0.058464
+M_met_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.003646 0.058581
+M_met_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.003699 0.058570
+M_met_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.003600 0.058551
+M_met_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.003553 0.058571
+M_phe_L_c_exchange_reverse M_pro_L_c_exchange_reverse -0.013542 1.688906
+M_phe_L_c_exchange_reverse M_ser_L_c_exchange_reverse -0.012791 1.688700
+M_phe_L_c_exchange_reverse M_thr_L_c_exchange_reverse -0.012863 1.688690
+M_phe_L_c_exchange_reverse M_trp_L_c_exchange_reverse -0.013438 1.688939
+M_phe_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.014333 1.689182
+M_phe_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.013201 1.688768
+M_pro_L_c_exchange_reverse M_ser_L_c_exchange_reverse 0.000765 0.268022
+M_pro_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.001014 0.268065
+M_pro_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.000668 0.268013
+M_pro_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.000380 0.268037
+M_pro_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.000782 0.267996
+M_ser_L_c_exchange_reverse M_thr_L_c_exchange_reverse 0.089598 0.692289
+M_ser_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.089751 0.692113
+M_ser_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.090022 0.692056
+M_ser_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.089748 0.692107
+M_thr_L_c_exchange_reverse M_trp_L_c_exchange_reverse 0.004209 1.019507
+M_thr_L_c_exchange_reverse M_tyr_L_c_exchange_reverse 0.004424 1.019562
+M_thr_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.004285 1.019532
+M_trp_L_c_exchange_reverse M_tyr_L_c_exchange_reverse -0.003189 0.049951
+M_trp_L_c_exchange_reverse M_val_L_c_exchange_reverse -0.002909 0.049919
+M_tyr_L_c_exchange_reverse M_val_L_c_exchange_reverse 0.028294 1.415364
