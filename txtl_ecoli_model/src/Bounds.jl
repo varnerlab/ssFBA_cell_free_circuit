@@ -524,8 +524,7 @@ if (flux_name == "M_glu_L_c_exchange_reverse")
 end
 
 if (flux_name == "M_glu_L_c_exchange")
-	sba = data_dictionary["sample_bounds_array"];
-	upper_bound = sba[21]
+	upper_bound = 10.0
 	#@show (flux_name,lower_bound,upper_bound)
 end
 

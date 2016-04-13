@@ -97,7 +97,7 @@ RNAP_copies_per_cell = 1900                           # Copies/cell
 RNAP_elongation_rate = 65                             # NT/s (ACS SynBio Garamella 2016)
 RIBOSOME_copies_per_cell = 23600                       # Copies/cell (upper bound at 72,000)
 RIBOSOME_elongation_rate = 16                         # AA/s (ACS SynBio Garamella 2016)
-number_of_cells = 2e8;                                # 1e9 cells/ml we take 100 uL
+number_of_cells = 2e8;                                # 1e9 cells/ml
 
 # ---------------------------- DO NOT EDIT BELOW THIS LINE -------------------------- #
 data_dictionary = Dict();
