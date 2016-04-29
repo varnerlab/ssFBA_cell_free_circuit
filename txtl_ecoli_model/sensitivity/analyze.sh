@@ -7,11 +7,11 @@
 
 python -m SALib.analyze.sobol \
      -p ./Bounds.txt \
-     -Y performance.txt \
+     -Y performance.txt.5000 \
      -c 0 \
      --max-order=2 \
 		 --parallel \
-		 --processors 2 \
+		 --processors 8 \
      -r 1000
 
 # Options:
