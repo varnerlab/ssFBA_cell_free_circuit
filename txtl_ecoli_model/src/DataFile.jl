@@ -95,7 +95,7 @@ p70a_model[5] = 10    # K2
 # Setup the mRNA elongation rate, and global translation
 RNAP_copies_per_cell = 1900                           # Copies/cell
 RNAP_elongation_rate = 65                             # NT/s (ACS SynBio Garamella 2016)
-RIBOSOME_copies_per_cell = 23600                       # Copies/cell (upper bound at 72,000)
+RIBOSOME_copies_per_cell = 23600                      # Copies/cell (upper bound at 72,000)
 RIBOSOME_elongation_rate = 16                         # AA/s (ACS SynBio Garamella 2016)
 number_of_cells = 2e8;                                # 1e9 cells/ml
 
@@ -119,14 +119,14 @@ data_dictionary["deGFP_mRNA_length"] = 683;
 data_dictionary["deGFP_protein_length"] = 229;
 data_dictionary["deGFP_gene_copies"] = 3.125e10;
 data_dictionary["mRNA_degradation_constant"] = 2.44;
-data_dictionary["polysome_gain"] = 16;
+data_dictionary["polysome_gain"] = 12;
 data_dictionary["volume"] = 10e-6;
 
 # Inducer levels -
 data_dictionary["p70_level"] = 35;
 
 # DNA saturation coeffcient -
-data_dictionary["plasmid_saturation_coefficient"] = 4.0
+data_dictionary["plasmid_saturation_coefficient"] = 4.5
 
 # Reactions that we block ...
 data_dictionary["blocked_reaction_set"] = blocked_reaction_set

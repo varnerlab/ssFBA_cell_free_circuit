@@ -584,7 +584,7 @@ if (flux_name == "transcriptional_initiation_deGFP" || flux_name =="mRNA_degrada
 	transcrition_rate_deGFP = (RNAP_elongation_rate*(1/mRNA_length_deGFP)*(RNAP_concentration)*(saturation_term)*3600)*P;
 
 	lower_bound = transcrition_rate_deGFP;
-	upper_bound = lower_bound;
+	upper_bound = transcrition_rate_deGFP;
 
 	# update the translation bound -
 	if (flux_name == "translation_initiation_deGFP")

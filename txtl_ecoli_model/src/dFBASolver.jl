@@ -13,6 +13,30 @@ data_dictionary["MIN_FLAG"] = false;
 flux_model_dictionary = data_dictionary["FLUX_MODEL_DICTIONARY"]
 flux_model_dictionary["PROTEIN_export_deGFP"].flux_obj_coeff = 1.0;
 
+# Setup bounds dictionary -
+bounds_dictionary = Dict()
+bounds_dictionary["M_ala_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_arg_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_asn_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_asp_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_cys_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_glu_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_gln_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_gly_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_ile_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_leu_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_his_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_lys_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_met_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_phe_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_pro_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_ser_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_thr_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_trp_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_tyr_L_c_exchange_reverse"] = 10.0
+bounds_dictionary["M_val_L_c_exchange_reverse"] = 10.0
+data_dictionary["aa_uptake_bounds_dictionary"] = bounds_dictionary;
+
 # Setup the time scale -
 TSTART = 0.0;
 TSTOP = 16.0;
@@ -34,19 +58,19 @@ flux_array = zeros(length(TSIM),number_of_fluxes)
 for (index,time_value) in enumerate(TSIM)
 
   # Setup bound -
-  if (maltose_array[index]>0)
-    R_malS_upper_bound = 10;
-    R_malS_lower_bound = maltose_array[1]/8;
-    M_asn_L_c_exchange_reverse_upper_bound = 10;
-    M_o2_c_exchange_reverse_upper_bound = 10;
-    translation_deGFP_switch_bound = false
-  else
-    R_malS_upper_bound = 0;
-    R_malS_lower_bound = 0;
-    M_asn_L_c_exchange_reverse_upper_bound = 0.0;
-    M_o2_c_exchange_reverse_upper_bound = 0.0;
-    translation_deGFP_switch_bound = true
-  end
+  # if (maltose_array[index]>0)
+  #   R_malS_upper_bound = 10;
+  #   R_malS_lower_bound = maltose_array[1]/8;
+  #   M_asn_L_c_exchange_reverse_upper_bound = 10;
+  #   M_o2_c_exchange_reverse_upper_bound = 10;
+  #   translation_deGFP_switch_bound = false
+  # else
+  #   R_malS_upper_bound = 0;
+  #   R_malS_lower_bound = 0;
+  #   M_asn_L_c_exchange_reverse_upper_bound = 0.0;
+  #   M_o2_c_exchange_reverse_upper_bound = 0.0;
+  #   translation_deGFP_switch_bound = true
+  # end
 
   # set the bound -
   data_dictionary["R_malS_upper_bound"] = R_malS_upper_bound;
